@@ -177,6 +177,10 @@ ank-logs <your_app_name>
 
 The command automatically follows the logs so you can get some :popcorn: and enjoy the show. If you get tired of it, you can always interrupt following the logs with a `ctrl + C`.
 
+### Send data between containers using eCAL
+
+If you want to send data from one container to another one using eCAL topics, please have a look [here](./ecal_between_containers.md) and follow the tutorial. The tutorial includes an example eCAL publisher app and an example eCAL subscriber app receiving dummy data from the publisher app over a podman network using eCAL.
+
 ### Getting Ankaios logs
 
 If you need some logs from Ankaios to get even deeper insights into the cluster, you can have a look in the `.logs` folder or follow the logs with the `tail -f <path to log>` command.
@@ -185,7 +189,6 @@ The following logs will be written by Ankaios in the `.logs` folder of the main 
 * ank-server
 * ank-agent-hpc1
 * ank-agent-hpc2
-* 
 
 ### Recordings
 
