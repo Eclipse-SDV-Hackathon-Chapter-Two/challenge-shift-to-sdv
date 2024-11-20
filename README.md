@@ -181,3 +181,8 @@ The following logs will be written by Ankaios in the `.logs` folder of the main 
 * ank-server
 * ank-agent-hpc1
 * ank-agent-hpc2
+* 
+
+### Recordings
+
+- Highway: https://we.tl/t-ug25UpqwR0 (expires Nov 23, 2024)
