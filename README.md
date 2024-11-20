@@ -54,9 +54,13 @@ Using the front camera of the test vehicle, an AI model predicts the class ID of
 
 You can get the inference results by subscribing to the eCAL topic `traffic_sign_detection`. More information on the data provided by the topic can be found [here](traffic_sign_detection.md).
 
+### Radar data
+
+The vehicle has a front left and front right radar that you can receive data from via eCAL topics. More information about the data provided by the topic can be found [here](radar.md).
+
 ### Web IVI
 
-If you need an IVI to display information to the driver inside the test vehicle, there is one already prepared that can be extended. By default it is comment out inside the Ankaios manifest [shift2sdv_manifest.yaml](shift2sdv_manifest.yaml) and not started. See [here](web_ivi/README.md) for more information.
+If you need an IVI to display information to the driver inside the test vehicle, there is one already prepared that can be extended. By default it is comment out inside the Ankaios manifest [shift2sdv_manifest.yaml](shift2sdv_manifest.yaml) and not started. See [here](apps/web_ivi/README.md) for more information.
 
 ## Connectivity Path
 
